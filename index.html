@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Pagos en Cuotas</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+    <h1>Simulador de Pagos en Cuotas</h1>
+    <div class="campo-formulario">
+        <label for="montoTotal">Monto Total:</label>
+        <input type="number" id="montoTotal" step="0.01">
+    </div>
+    <div class="campo-formulario">
+        <label for="cantidadCuotas">Cantidad de Cuotas:</label>
+        <input type="number" id="cantidadCuotas">
+    </div>
+    <div class="campo-formulario">
+        <label for="tasaInteresAnual">Tasa de Interés Anual (%):</label>
+        <input type="number" id="tasaInteresAnual" step="0.01">
+    </div>
+    <button id="calcularBtn">Calcular Pago Mensual</button>
+    <p id="resultado"></p>
+
+    <details>
+        <summary>Pagos Calculados</summary>
+        <ul id="listaPagos"></ul>
+    </details>
+
+    <button id="reiniciarBtn">Reiniciar Historial</button>
+
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
