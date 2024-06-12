@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Fprumularios */
+.campo-formulario {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Boton de Calculo */
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+details {
+    margin-top: 20px;
+}
+
+summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #007BFF;
+}
+
+summary:hover {
+    color: #0056b3;
+}
+
+/* Historial de pagos */
+#listaPagos {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#listaPagos li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Boton de reinicio */
+button#reiniciarBtn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button#reiniciarBtn:hover {
+    background-color: #c82333;
+}
